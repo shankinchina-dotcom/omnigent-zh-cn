@@ -1,3 +1,6 @@
+> [!CAUTION]
+> **本副本已冻结，不是生产源码（2026-08-20 标注）**。生产 server 实际从 `agentcenter` monorepo 的**内嵌副本**（`agentcenter/agentcenter/omnigent-zh-cn`，uv tool 安装凭证见 `~/.local/share/uv/tools/omnigent-zh-cn/uv-receipt.toml`）构建。本副本停在 2026-07-19（HEAD `8159424`），缺 launch 级 prompt 投递等后续修复。读代码、改核心一律去内嵌副本；改完需 `uv tool install --reinstall` + 重启 server/host 生效。详见 agentpeihe `docs/PITFALLS.md` 坑 26。
+
 <p align="center">
   <img src="docs/images/omnigent-logo.png" alt="Omnigent 中文版" width="96" />
 </p>
