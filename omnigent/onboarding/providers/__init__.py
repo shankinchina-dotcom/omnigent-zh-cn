@@ -429,7 +429,7 @@ _DEFAULT_MODEL_OVERRIDE: dict[str, str] = {
     "openrouter": "moonshotai/kimi-k2.6",
     # xAI — pin the flagship so click.prompt(default=...) always has a value
     # even when the catalog fetch is disabled (e.g. in tests).
-    "xai": "grok-3",
+    "xai": "grok-4.7",
 }
 
 
